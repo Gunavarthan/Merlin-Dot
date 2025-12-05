@@ -1,5 +1,0 @@
-2025/11/15-13:46:42.610 1a1b Creating DB /home/merlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb since it was missing.
-2025/11/15-13:46:42.612 1a1b Reusing MANIFEST /home/merlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/15-13:51:47.418 1a28 Level-0 table #5: started
-2025/11/15-13:51:47.441 1a28 Level-0 table #5: 1692250 bytes OK
-2025/11/15-13:51:47.443 1a28 Delete type=0 #3

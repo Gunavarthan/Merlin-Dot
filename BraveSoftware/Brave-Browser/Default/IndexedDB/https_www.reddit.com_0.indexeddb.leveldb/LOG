@@ -1,6 +1,0 @@
-2025/12/01-22:08:33.474 fea Creating DB /home/merlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
-2025/12/01-22:08:33.476 fea Reusing MANIFEST /home/merlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/01-22:09:05.481 fec Level-0 table #5: started
-2025/12/01-22:09:05.483 fec Level-0 table #5: 1378 bytes OK
-2025/12/01-22:09:05.486 fec Delete type=0 #3
-2025/12/01-22:09:05.488 fec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
