@@ -1,0 +1,82 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+
+  "modules-left": [
+    "clock",
+    "battery",
+    "cpu",
+    "bluetooth",
+    "network"
+  ],
+
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-right": [
+    "custom/spotify",
+    "power-profiles-daemon",
+    "custom/power-menu"
+  ],
+
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+
+  "battery": {
+    "format": "{capacity}% ",
+    "format-charging": "{capacity}% ",
+    "tooltip": true
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": false
+  },
+
+  "bluetooth": {
+    "format": " {status}",
+    "format-connected": " {device_alias}",
+    "tooltip": true
+  },
+
+  "network": {
+    "format": "{ifname}: {ipaddr}",
+    "tooltip": false
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "disable-scroll": false,
+    "active-only": false
+  },
+
+  "custom/spotify": {
+    "format": "",          
+    "tooltip": "Launch Spotify",
+    "on-click": "spotify &",
+    "signal": 1,
+    "interval": 0
+  },
+
+
+  "power-profiles-daemon": {
+    "format": " {profile}",
+    "tooltip-format": "Current profile: {profile}",
+    "on-click": "powerprofilesctl set performance",
+    "on-click-right": "powerprofilesctl set power-saver",
+    "on-click-middle": "powerprofilesctl set balanced"
+  },
+
+  "custom/power-menu": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "wlogout",
+    "on-click-right": "wlogout",
+    "on-hover": "wlogout",
+    "escape": true
+  }
+}

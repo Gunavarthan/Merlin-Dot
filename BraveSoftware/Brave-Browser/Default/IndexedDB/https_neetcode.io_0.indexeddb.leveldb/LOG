@@ -1,0 +1,28 @@
+2025/12/05-14:49:54.475 105e Reusing MANIFEST /home/merlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neetcode.io_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/05-14:49:54.476 105e Recovering log #144
+2025/12/05-14:49:54.477 105e Reusing old log /home/merlin/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neetcode.io_0.indexeddb.leveldb/000144.log 
+2025/12/05-14:49:54.485 105e Level-0 table #150: started
+2025/12/05-14:49:54.487 105e Level-0 table #150: 8320 bytes OK
+2025/12/05-14:49:54.488 105e Delete type=0 #144
+2025/12/05-14:49:54.489 105e Manual compaction at level-0 from '\x004\x00\x00\x00' @ 72057594037927935 : 1 .. '\x005\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/05-14:49:54.534 1060 Level-0 table #152: started
+2025/12/05-14:49:54.536 1060 Level-0 table #152: 833 bytes OK
+2025/12/05-14:49:54.540 1060 Delete type=0 #149
+2025/12/05-14:49:54.540 1060 Manual compaction at level-0 from '\x005\x00\x00\x00' @ 72057594037927935 : 1 .. '\x006\x00\x00\x00' @ 0 : 0; will stop at '\x005\x00\x00\x05' @ 2014 : 1
+2025/12/05-14:49:54.541 1060 Compacting 1@0 + 1@1 files
+2025/12/05-14:49:54.545 1060 Generated table #153@0: 35 keys, 4222 bytes
+2025/12/05-14:49:54.545 1060 Compacted 1@0 + 1@1 files => 4222 bytes
+2025/12/05-14:49:54.548 1060 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/05-14:49:54.548 1060 Delete type=2 #152
+2025/12/05-14:49:54.549 1060 Manual compaction at level-0 from '\x005\x00\x00\x05' @ 2014 : 1 .. '\x006\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/05-14:49:55.075 106d Level-0 table #155: started
+2025/12/05-14:49:55.077 106d Level-0 table #155: 782 bytes OK
+2025/12/05-14:49:55.081 106d Delete type=2 #150
+2025/12/05-14:49:55.081 106d Delete type=0 #151
+2025/12/05-14:49:55.082 106e Manual compaction at level-0 from '\x006\x00\x00\x00' @ 72057594037927935 : 1 .. '\x007\x00\x00\x00' @ 0 : 0; will stop at '\x006\x00\x00\x05' @ 2049 : 1
+2025/12/05-14:49:55.082 106e Compacting 1@0 + 1@1 files
+2025/12/05-14:49:55.084 106e Generated table #156@0: 39 keys, 4734 bytes
+2025/12/05-14:49:55.084 106e Compacted 1@0 + 1@1 files => 4734 bytes
+2025/12/05-14:49:55.086 106e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/05-14:49:55.086 106e Delete type=2 #155
+2025/12/05-14:49:55.087 106d Manual compaction at level-0 from '\x006\x00\x00\x05' @ 2049 : 1 .. '\x007\x00\x00\x00' @ 0 : 0; will stop at (end)

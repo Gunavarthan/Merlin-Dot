@@ -1,0 +1,22 @@
+2025/12/05-11:20:51.261 5 Reusing MANIFEST /home/merlin/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/12/05-11:20:51.266 5 Recovering log #138
+2025/12/05-11:20:51.266 5 Level-0 table #141: started
+2025/12/05-11:20:51.269 5 Level-0 table #141: 16163 bytes OK
+2025/12/05-11:20:51.270 5 Recovering log #140
+2025/12/05-11:20:51.271 5 Reusing old log /home/merlin/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000140.log 
+2025/12/05-11:20:51.275 5 Delete type=0 #138
+2025/12/05-11:20:51.276 7 Compacting 4@0 + 1@1 files
+2025/12/05-11:20:51.296 7 Generated table #142@0: 439 keys, 370603 bytes
+2025/12/05-11:20:51.296 7 Compacted 4@0 + 1@1 files => 370603 bytes
+2025/12/05-11:20:51.298 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/05-11:20:51.299 7 Delete type=2 #131
+2025/12/05-11:20:51.299 7 Delete type=2 #133
+2025/12/05-11:20:51.299 7 Delete type=2 #136
+2025/12/05-11:20:51.299 7 Delete type=2 #139
+2025/12/05-11:20:51.299 7 Delete type=2 #141
+2025/12/05-11:49:58.242 7 Level-0 table #144: started
+2025/12/05-11:49:58.245 7 Level-0 table #144: 20921 bytes OK
+2025/12/05-11:49:58.249 7 Delete type=0 #140
+2025/12/05-12:09:23.445 5 Level-0 table #146: started
+2025/12/05-12:09:23.451 5 Level-0 table #146: 16563 bytes OK
+2025/12/05-12:09:23.459 5 Delete type=0 #143

@@ -1,0 +1,41 @@
+# ─────────────── GENERAL ───────────────
+format = """
+[ ](fg:#AA88FF)$username@$hostname [](fg:#4A405A) $directory$git_branch$cmd_duration
+$character
+"""
+
+# Prompt symbol
+[character]
+success_symbol = "[❯](bold fg:#AA88FF)"
+error_symbol = "[❯](bold fg:#FF5566)"
+
+# Username
+[username]
+style_user = "bold fg:#AA88FF"
+style_root = "bold fg:#FF4444"
+show_always = true
+
+# Hostname
+[hostname]
+format = "[$hostname](fg:#8877FF)"
+
+# Current directory
+[directory]
+style = "bold fg:#E4E4E7"
+
+# Git branch
+[git_branch]
+symbol = " "
+style = "fg:#AA88FF"
+format = "[$symbol$branch]($style)"
+
+# Show if command took long
+[cmd_duration]
+min_time = 500
+format = "[  $duration ](fg:#CCAA55)"
+
+# Disable AWS, Docker etc
+[aws]
+disabled = true
+[docker_context]
+disabled = true

@@ -1,0 +1,54 @@
+* {
+    border: none;
+    border-radius: 0px;        /* No rounded corners */
+    padding: 2px 5px;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 13px;
+}
+
+/* ---- Full top bar ---- */
+#waybar {
+    background:#030d2b ;       /* Dark purple */
+    border-bottom: 2px solid #4c0073; /* Slightly lighter border */
+}
+
+/* Common modules */
+#clock,
+#network,
+#bluetooth,
+#battery,
+#cpu,
+#temperature,
+#custom-spotify,
+#custom-powerprofile,
+#custom-poweractions,
+#workspaces {
+    background: none;          /* Keep modules clean & flat */
+    padding: 5px 12px;
+}
+
+/* Workspaces */
+#workspaces button {
+    background: none;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    background: #4c0073;       /* Slightly brighter purple */
+    color: #ffffff;
+}
+
+/* Hover effects */
+#clock:hover,
+#network:hover,
+#bluetooth:hover,
+#battery:hover,
+#cpu:hover,
+#custom-spotify:hover,
+#custom-powerprofile:hover,
+#custom-poweractions:hover {
+    background:  #2b0048;       /* Stronger purple on hover */
+    border-bottom:1px solid rgba(255,255,255,0.5);
+}

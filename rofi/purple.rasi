@@ -1,0 +1,41 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    display-drun: "Apps";
+    drun-display-format: "{icon}  {name}";
+}
+
+window {
+    transparency: "real";
+    background-color: #1a1525ee;
+    border: 2px solid #b36bff;
+    border-radius: 12;
+    padding: 10;
+}
+
+mainbox {
+    padding: 10;
+}
+
+inputbar {
+    background-color: #241b36;
+    text-color: #e0d2ff;
+    border-radius: 8;
+    padding: 6 10;
+}
+
+listview {
+    spacing: 6;
+}
+
+element {
+    padding: 8;
+    border-radius: 6;
+    background-color: transparent;
+}
+
+element selected {
+    background-color: #b36bff44;
+    text-color: white;
+}

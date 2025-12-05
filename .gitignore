@@ -1,0 +1,27 @@
+# Do NOT upload app data or caches
+BraveSoftware/
+Code/
+libreoffice/
+evolution/
+gnome-boxes/
+libvirt/
+pulse/
+goa-1.0/
+ibus/
+nautilus/
+dconf/
+background/
+org.gnome.Ptyxis/
+
+# Do not upload Thunar trash
+Thunar/accels.scm
+
+# Optional machine-local configs
+user-dirs.dirs
+user-dirs.locale
+mimeapps.list
+
+# Cache or runtime files
+*.log
+*.lock
+.cache/
